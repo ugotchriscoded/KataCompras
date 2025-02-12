@@ -4,7 +4,7 @@
 
 ## :bulb:Project description
 
-This project is a **technical evaluation** that must completed in **two hours**. It consist in the creation of a **shopping list** in Laravel.
+This project is a **technical evaluation** that must completed in **two hours**. It consist in the creation of a **shopping list** in Laravel. Is not a finished product, just a test to know how far I can go and what things I need to practice and be better at.
 
 ## Requirements:
 
@@ -113,12 +113,13 @@ Use this command:
 php artisan test --coverage
 ```
 
-(insert screenshoot)
+<img width="701" alt="image" src="https://github.com/user-attachments/assets/f10e3978-f3a6-45fd-bea4-0a763bafa63f" />
+
 
 ## Authors
 Developed by **Valeria Dobado Gonzalez**:
-- **Github**: *https://github.com/ugotchriscoded/ugotchriscoded
-- *Linkendin**: *https://www.linkedin.com/in/valeria-dobado-gonzález-262060328/*
+- **Github**: *https://github.com/ugotchriscoded/ugotchriscoded*
+- **Linkendin**: *https://www.linkedin.com/in/valeria-dobado-gonzález-262060328/*
 
 ## Languages
 <a href='https://github.com/shivamkapasia0' target="_blank"><img alt='php' src='https://img.shields.io/badge/php-100000?style=for-the-badge&logo=php&logoColor=white&labelColor=000000&color=000000'/></a>
