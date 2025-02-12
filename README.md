@@ -91,10 +91,20 @@ php artisan serve
 > [!IMPORTANT]
 >  Testing the project so we can check if it works correctly using this command:
 
+
 ```php
 ./vendor/bin/phpunit tests
 ```
-(insert screenshoot)
+
+<img width="448" alt="test katacompras" src="https://github.com/user-attachments/assets/c29579b5-42dd-440f-81d4-4ec9a27a5e12" />
+
+
+```php
+php artisan test
+```
+
+<img width="448" alt="test katacompras" src="https://github.com/user-attachments/assets/761d0d11-c665-47e9-9ca8-68e97d1c7297" />
+
 
 ### Coverage
 Use this command:
@@ -108,7 +118,7 @@ php artisan test --coverage
 ## Authors
 Developed by **Valeria Dobado Gonzalez**:
 - **Github**: *https://github.com/ugotchriscoded/ugotchriscoded
-- **Linkendin**: *https://www.linkedin.com/in/valeria-dobado-gonzález-262060328/*
+- *Linkendin**: *https://www.linkedin.com/in/valeria-dobado-gonzález-262060328/*
 
 ## Languages
 <a href='https://github.com/shivamkapasia0' target="_blank"><img alt='php' src='https://img.shields.io/badge/php-100000?style=for-the-badge&logo=php&logoColor=white&labelColor=000000&color=000000'/></a>
