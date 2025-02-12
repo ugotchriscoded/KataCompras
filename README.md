@@ -10,9 +10,7 @@ This project is a **technical evaluation** that must completed in **two hours**.
 
 - Shopping list must be in a database.
 - See my shopping list **(END POINT)**.
-- **Delete** an item from the shopping list **(END POINT)**.
-- **Create** an item in my shopping list **(END POINT)**.
-- **Update** an item in my shopping list **(END POINT)**.
+- **Delete, create and update** an item from the shopping list **(END POINT)**.
 - **Final point** that **completely delete** my shopping list.
 - When adding an item if that **item exists** it should not be added and **return the message** *"existing product"*.
 
@@ -22,7 +20,10 @@ This project is a **technical evaluation** that must completed in **two hours**.
 
 ## :file_folder: Jira Backlog
 
-(insert screenshoots)
+<img width="959" alt="Katacompras jira" src="https://github.com/user-attachments/assets/87ad68dc-b5fb-4ce5-b131-a1ab77dced88" />
+
+
+## :file_folder: SQL Diagram
 
 ## :paperclip: Installation requirements
 :black_circle: XAMPP
@@ -82,6 +83,8 @@ php artisan serve
 
 > [!NOTE]
 > Press Control and click the link.
+
+## Endpoints
 
 ## :white_check_mark: Tests
 
