@@ -1,67 +1,128 @@
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+# 🧺 Kata Lista de compras 💵
 
-## About Laravel
+## :bulb:Project description
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+This project is a **technical evaluation** that must completed in **two hours**. It consist in the creation of a **shopping list** in Laravel.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Requirements:
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+- Shopping list must be in a database.
+- See my shopping list **(END POINT)**.
+- **Delete** an item from the shopping list **(END POINT)**.
+- **Create** an item in my shopping list **(END POINT)**.
+- **Update** an item in my shopping list **(END POINT)**.
+- **Final point** that **completely delete** my shopping list.
+- When adding an item if that **item exists** it should not be added and **return the message** *"existing product"*.
 
-## Learning Laravel
+## :eye_speech_bubble: Working app
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+(insert screenshoots)
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+## :file_folder: Jira Backlog
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+(insert screenshoots)
 
-## Laravel Sponsors
+## :paperclip: Installation requirements
+:black_circle: XAMPP
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+:black_circle: Composer
 
-### Premium Partners
+:black_circle: Node.js (Installing NPM)
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+:black_circle: Xdebug 
 
-## Contributing
+:black_circle: Postman
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+> [!NOTE] 
+If you can't install XAPP, you can also use another local server that supports MySQL and PHP.
 
-## Code of Conduct
+## :scroll: Installation
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+### Step 1: Creating database
 
-## Security Vulnerabilities
+Creating a database in **Admin** **SQL**.
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+<img width="164" alt="base datos compras" src="https://github.com/user-attachments/assets/813082c1-5137-4f92-8758-6f7143971f00" />
 
-## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-# KataCompras
+
+### Step 2: Cloning repository
+
+```php
+https://github.com/ugotchriscoded/KataCompras
+ ```
+
+ ### Step 3: Putting everything up to date
+
+In the *.env* file **remove** the *#* in these lines, enter the **name** of your **database** and **replace** *Laravel* with *sql*.
+
+<img width="134" alt="compras database" src="https://github.com/user-attachments/assets/46c8da48-b832-4055-a93c-0a389f3eb38b" />
+
+### Server
+
+To **run the server** enter this command:
+
+```php
+npm run dev
+```
+<img width="299" alt="rundev" src="https://github.com/user-attachments/assets/c74ca3c2-cc89-4d74-9e66-e3296a3e939c" />
+
+> [!WARNING]
+> **DON'T work** on that terminal again, but you should keep it working. **DON'T KILL IT.**
+
+To see the **running serve** enter the command:
+
+```php
+php artisan serve
+```
+<img width="436" alt="server running" src="https://github.com/user-attachments/assets/abdd9309-5337-4418-b3a3-debd03a8f577" />
+
+
+> [!NOTE]
+> Press Control and click the link.
+
+## :white_check_mark: Tests
+
+> [!IMPORTANT]
+>  Testing the project so we can check if it works correctly using this command:
+
+```php
+./vendor/bin/phpunit tests
+```
+(insert screenshoot)
+
+### Coverage
+Use this command:
+
+```php
+php artisan test --coverage
+```
+
+(insert screenshoot)
+
+## Authors
+Developed by **Valeria Dobado Gonzalez**:
+- **Github**: *https://github.com/ugotchriscoded/ugotchriscoded
+- **Linkendin**: *https://www.linkedin.com/in/valeria-dobado-gonzález-262060328/*
+
+## Languages
+<a href='https://github.com/shivamkapasia0' target="_blank"><img alt='php' src='https://img.shields.io/badge/php-100000?style=for-the-badge&logo=php&logoColor=white&labelColor=000000&color=000000'/></a>
+<a href='https://github.com/shivamkapasia0' target="_blank"><img alt='css3' src='https://img.shields.io/badge/css3-100000?style=for-the-badge&logo=css3&logoColor=white&labelColor=000000&color=000000'/></a>
+<a href='https://github.com/shivamkapasia0' target="_blank"><img alt='json' src='https://img.shields.io/badge/JSON-100000?style=for-the-badge&logo=json&logoColor=white&labelColor=000000&color=000000'/></a>
+
+## Tools
+<a href='https://github.com/shivamkapasia0' target="_blank"><img alt='github' src='https://img.shields.io/badge/github-100000?style=for-the-badge&logo=github&logoColor=white&labelColor=000000&color=000000'/></a>
+<a href='https://github.com/shivamkapasia0' target="_blank"><img alt='Laravel' src='https://img.shields.io/badge/Laravel-100000?style=for-the-badge&logo=Laravel&logoColor=white&labelColor=000000&color=000000'/></a>
+<a href='https://github.com/shivamkapasia0' target="_blank"><img alt='Git' src='https://img.shields.io/badge/git-100000?style=for-the-badge&logo=Git&logoColor=white&labelColor=000000&color=000000'/></a>
+<a href='https://github.com/shivamkapasia0' target="_blank"><img alt='MySql' src='https://img.shields.io/badge/my_sql-100000?style=for-the-badge&logo=MySql&logoColor=white&labelColor=000000&color=000000'/></a>
+<a href='https://github.com/shivamkapasia0' target="_blank"><img alt='xampp' src='https://img.shields.io/badge/xampp-100000?style=for-the-badge&logo=xampp&logoColor=white&labelColor=000000&color=000000'/></a>
+<a href='https://github.com/shivamkapasia0' target="_blank"><img alt='xampp' src='https://img.shields.io/badge/postman-100000?style=for-the-badge&logo=xampp&logoColor=white&labelColor=000000&color=000000'/></a>
+<a href='https://github.com/shivamkapasia0' target="_blank"><img alt='Jira' src='https://img.shields.io/badge/Jira-100000?style=for-the-badge&logo=Jira&logoColor=white&labelColor=black&color=black'/></a>
+
+## Thanks for reading!
+
+Thanks for your attention, have a nice day! <3
+
+
