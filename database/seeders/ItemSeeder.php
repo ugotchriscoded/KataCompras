@@ -12,7 +12,31 @@ class ItemSeeder extends Seeder
     public function run(): void
     {
         $item = new Items();
-        $item->name = "Orange juice";
+        $item->name = "Cofee";
+        $item->save();
+
+        $item = new Items();
+        $item->name = "Apples";
+        $item->save();
+
+        $item = new Items();
+        $item->name = "Pears";
+        $item->save();
+
+        $item = new Items();
+        $item->name = "Sausages";
+        $item->save();
+
+        $item = new Items();
+        $item->name = "Yogurt";
+        $item->save();
+
+        $item = new Items();
+        $item->name = "Butter";
+        $item->save();
+
+        $item = new Items();
+        $item->name = "Chocolate";
         $item->save();
     }
 }
